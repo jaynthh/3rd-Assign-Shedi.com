@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #CCCCCC;
+}
+.large-container{
+    border: none;
+    width: 75%;
+    height: auto;
+    margin: 0px auto;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 15px 0px;
+}
+.BlueBox{
+    height: 20vh;
+    width: 100%;
+    background-color: #76C7C0;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.headlog{
+    margin-left: 50px;
+}
+.headlog img{
+    height: 66px;
+    width: 215px;
+}
+.BlackBox{
+    background-color: #424242;
+    height: 15vh;
+    width: 100%;
+
+}
+.navbar{
+    font-family: "Open Sans";
+}
+.navbar1 ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar1 a{
+    color: white;
+    text-decoration: none;
+}
+.navbar1 li{
+    padding: 20px 10px;
+    list-style-type: none;
+}
+.navbar1 li:hover{
+    height: 20px;
+    background-color: #686868;
+}
+.navbar2 ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar2 a{
+    color: white;
+    text-decoration: none;
+}
+.navbar2 li{
+    padding: 10px 30px;
+    list-style-type: none;
+}
+.navbar2 li:hover{
+    height: 20px;
+    background-color: #686868;
+}
+/* !GRID-----------------------------------------! */
+/* .grid-container{
+    border: 1px solid black;
+    width: 92%;
+    height: 500px;
+    margin: 0px auto;
+} */
+.G-Container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    row-gap: 25px;
+    margin: 20px 0;
+}
+.G-Container .box{
+    /* height: auto; */
+    width: 332px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+.boxImg img{
+    height: 205px ;
+    width: 332px;
+}
+.boxQuote{
+    font-family: "Oswald";
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+.boxPara{
+    font-family: "Open Sans";
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 20px;
+    text-align: justify;
+}
+/* !----------------------------------------Pages Blog------------------------ */
+.grid-container-pages{
+    height: 50px;
+    width: 95%;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px auto;
+}
+.grid-container-pages ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    height: 50px;
+}
+.grid-container-pages li{
+    list-style-type: none;
+    align-items: center;
+}
+.grid-container-pages a{
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "oswald";
+    padding: 0px 10px;
+    color: #76C7C0;
+}
+.grid-container-pages a:hover{
+    color: tomato;
+}
+/* !------------------------------------Footer-------------- */
+.boxFooter{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyrig{
+    padding: 0px 30px;
+    font-family: "Open Sans";
+    font-size: 12px;
+}
+.powby{
+    padding: 0px 30px;
+    font-family: "Open Sans";
+    font-size: 12px;
+}
+.powby span{
+    color: aquamarine;
+    font-family: "oswald";
+    font-size: 15px;
+
+}
+.powby:hover{
+    background-image: url(./Images/jayy.png);
+    height: 350px;
+    width: 150px;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
